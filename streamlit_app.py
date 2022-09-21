@@ -5,6 +5,9 @@ from pathlib import Path
 
 import streamlit as st
 
+st.title('🐕🐕🐕  แยกสายพันธ์สุนัข ')
+
+st.write('จำนวน ๑๒๐ พันธ์')
 # st.image('logo.png')
 # st.markdown("## Object Classifier App with Deep Learning")
 # st.markdown("""
