@@ -5,9 +5,6 @@ from pathlib import Path
 
 import streamlit as st
 
-st.title('🐕🐕🐕  แยกสายพันธ์สุนัข ')
-
-st.write('จำนวน ๑๒๐ พันธ์')
 # st.image('logo.png')
 # st.markdown("## Object Classifier App with Deep Learning")
 # st.markdown("""
@@ -48,4 +45,3 @@ if __name__=='__main__':
     file_name='dbc_resnet18_fastai.pkl'
 
     predictor = Predict(file_name)
-
